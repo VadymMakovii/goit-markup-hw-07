@@ -1,0 +1,20 @@
+.logo {
+    display: block;
+    font-family: $logo-font-family;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    &--white {
+        color: $main-color-white;
+    }
+
+    &--black {
+        color: #000000;
+    }
+
+    &--accent {
+        color: $accent-color;
+    }
+}

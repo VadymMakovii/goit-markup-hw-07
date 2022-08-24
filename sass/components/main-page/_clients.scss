@@ -1,0 +1,35 @@
+.clients {
+    @extend %section;
+}
+
+
+.clients__list {
+    @extend %list;
+}
+
+
+.clients__link {
+    @include flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
+
+    transition: border-color $transition-basic;
+
+    &:hover,
+    &:focus {
+            border-color: $accent-color;
+    }
+}
+
+
+.clients__icon {
+    fill: #afb1b8;
+    transition: fill $transition-basic;
+
+    .clients__link:hover &,
+    .clients__link:focus & {
+        fill: $accent-color;
+    }
+}
