@@ -4,7 +4,7 @@
     padding-bottom: 60px;
 }
 
-.footer__frame {
+.footer__conteiner {
     @include flex (baseline, space-between);
 }
 

@@ -19,11 +19,11 @@
 
     transition: background-color $transition-basic;
 
-    &--bc-light {
+    &_bc_light {
         background-color: inherit;
     }
 
-    &--bc-dark {
+    &_bc_dark {
         background-color: rgba(255, 255, 255, 0.1);
     }
 
@@ -38,6 +38,10 @@
     height: 20px;
     fill: rgba(175, 177, 184, 1);
     transition: fill $transition-basic;
+
+    &_white {
+        fill: $main-color-white;
+    }
 
     .social-link:hover &,
     .social-link:focus & {

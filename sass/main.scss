@@ -1,20 +1,23 @@
 @import './utils/variables';
-@import './utils/base';
 @import './utils/visually-hidden';
 @import './utils/placeholders';
 @import './utils/mixin';
-@import './components/common/logo';
-@import './components/common/button';
-@import './components/common/social';
-@import './components/common/header';
-@import './components/main-page/hero';
-@import './components/main-page/features';
-@import './components/main-page/work';
-@import './components/main-page/team';
-@import './components/main-page/clients';
-@import './components/common/footer';
-@import './components/portfolio-page/portfolio-filter';
-@import './components/portfolio-page/portfolio-cards';
+@import './base/common';
+@import './base/reset';
+@import './components/conteiner';
+@import './components/section-title';
+@import './components/logo';
+@import './components/button';
+@import './components/social';
+@import './components/header';
+@import './components/footer';
+@import './layout/main-page/hero';
+@import './layout/main-page/features';
+@import './layout/main-page/work';
+@import './layout/main-page/team';
+@import './layout/main-page/clients';
+@import './layout/portfolio-page/portfolio-filter';
+@import './layout/portfolio-page/portfolio-cards';
 
 
 

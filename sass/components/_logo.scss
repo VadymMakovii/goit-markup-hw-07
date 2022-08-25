@@ -6,15 +6,15 @@
     font-size: 26px;
     line-height: 1.19;
 
-    &--white {
+    &_white {
         color: $main-color-white;
     }
 
-    &--black {
+    &_black {
         color: #000000;
     }
 
-    &--accent {
+    &_accent {
         color: $accent-color;
     }
 }

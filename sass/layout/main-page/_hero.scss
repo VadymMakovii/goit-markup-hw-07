@@ -49,7 +49,7 @@
   opacity: 1;
   transition: opacity $transition-basic, visibility $transition-basic;
 
-  &--is-hidden {
+  &_is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
@@ -71,7 +71,7 @@
 
   transition: transform $transition-basic;
 
-  .backdrop--is-hidden & {
+  .backdrop_is-hidden & {
     transform: translate(-50%, -50%) scale(2) rotate(30deg);
   }
 }
@@ -237,7 +237,7 @@
     border-color: $accent-color;
   }
 
-  &--checked {
+  &_checked {
     opacity: 0;
     transition: opacity $transition-basic;
   }
@@ -246,7 +246,7 @@
     border: transparent;
   }
 
-  .form-accept__checkbox:checked ~ * &--checked {
+  .form-accept__checkbox:checked ~ * &_checked {
     opacity: 1;
   }
 

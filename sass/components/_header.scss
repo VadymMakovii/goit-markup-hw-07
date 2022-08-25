@@ -4,7 +4,7 @@
 }
 
 
-.main-nav {
+.header__conteiner {
     @include flex;
 }
 
@@ -47,21 +47,21 @@
 }
 
 
-.header-nav__link--current {
+.header-nav__link_current {
     color: $accent-color;
     position: relative;
 
     &::after {
-            content: '';
-            position: absolute;
+        content: '';
+        position: absolute;
     
-            bottom: -1px;
-            display: block;
-            width: 100%;
-            height: 4px;
-            background-color: $accent-color;
-            border-radius: 2px;
-        }
+        bottom: -1px;
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: $accent-color;
+        border-radius: 2px;
+    }
 }
 
 
@@ -90,8 +90,8 @@
 
     &:focus,
     &:hover {
-            color: $accent-color;
-        }
+        color: $accent-color;
+    }
 }
 
 
@@ -103,8 +103,8 @@
 
     .header-contacts__link:focus &,
     .header-contacts__link:hover & {
-            fill: $accent-color;
-        }
+        fill: $accent-color;
+    }
 }
 
 
